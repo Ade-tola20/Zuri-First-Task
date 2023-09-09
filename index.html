@@ -16,6 +16,7 @@
   </head>
   <body>
     <main>
+      <!-- NAV -->
       <div id="nav">
         <div class="circle-wrapper">
           <div class="animate circle"></div>
@@ -25,10 +26,11 @@
         </div>
         <img src="./Images/signature.png" alt="" class="signature-img" />
         <div class="date-div">
-          <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></p>
+          <p data-testid="currentDayOfTheWeek" id="DayOfTheWeek"></p>
           <p data-testid="currentUTCTime" id="currentTimeOfTheDay"></p>
         </div>
       </div>
+      <!-- NAME DIV -->
       <div class="name-div">
         <span  data-testid="slackUserName" style="--i:1" id="nameId">A</span>
         <span  data-testid="slackUserName" style="--i:2" id="nameId">d</span>
@@ -38,9 +40,15 @@
         <span  data-testid="slackUserName" style="--i:6" id="nameId">l</span>
         <span  data-testid="slackUserName" style="--i:7" id="nameId">a</span>
       </div>
-      <div class="track-div">
-        <p data-testid="myTrack" class="frontend-track">Frontend</p>
-      </div>
+      <!-- FOOTER -->
+      <footer>
+        <div class="track-div">
+          <p data-testid="myTrack" class="frontend-track">My Track: Frontend</p>
+        </div>
+        <div class="github-div">
+          <a href="https://github.com/Ade-tola20/Zuri-First-Task" data-testid=“githubURL” class="github-link">Github Link</a>
+        </div>
+      </footer>
     </main>
 
     <script src="script.js"></script>

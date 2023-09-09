@@ -1,5 +1,5 @@
-// script.js
-const dayElement = document.getElementById("currentDayOfTheWeek");
+// SCRIPT
+const dayElement = document.getElementById("DayOfTheWeek");
 
 function updateDateTime() {
     const currentDate = new Date();
@@ -8,5 +8,5 @@ function updateDateTime() {
     dayElement.textContent = new Intl.DateTimeFormat('en-US', options).format(currentDate);
     timeElement.textContent = currentDate.toTimeString().split(' ')[0]; // Display only the time part
 }
-
-setInterval(updateDateTime); // Update every second
+// UPDATE EVERY SECOND
+setInterval(updateDateTime);

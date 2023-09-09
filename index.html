@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Page Creation</title>
+  </head>
+  <body>
+    <main>
+      <div id="nav">
+        <div class="circle-wrapper">
+          <div class="animate circle"></div>
+          <div class="tola-icon">
+            <img src="./Images/Tola 2-fotor-20230908102420.png" data-testid="slackDisplayImage" alt="" id="slackDisplayImage" />
+          </div>
+        </div>
+        <img src="./Images/signature.png" alt="" class="signature-img" />
+        <div class="date-div">
+          <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></p>
+          <p data-testid="currentUTCTime" id="currentTimeOfTheDay"></p>
+        </div>
+      </div>
+      <div class="name-div">
+        <span  data-testid="slackUserName" style="--i:1" id="nameId">A</span>
+        <span  data-testid="slackUserName" style="--i:2" id="nameId">d</span>
+        <span  data-testid="slackUserName" style="--i:3" id="nameId">e</span>
+        <span  data-testid="slackUserName" style="--i:4" id="nameId">t</span>
+        <span  data-testid="slackUserName" style="--i:5" id="nameId">o</span>
+        <span  data-testid="slackUserName" style="--i:6" id="nameId">l</span>
+        <span  data-testid="slackUserName" style="--i:7" id="nameId">a</span>
+      </div>
+      <div class="track-div">
+        <p data-testid="myTrack" class="frontend-track">Frontend</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
